@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Dictionary {
-    HashMap<String, String> translatedWords = new HashMap<>();
+    private HashMap<String, String> translatedWords = new HashMap<>();
 
     public Dictionary(){
     // Add words with their translations (Spanish, English)
